@@ -17,13 +17,22 @@ from sklearn.datasets import make_regression
 X, y = make_regression(n_samples=50, n_features=1, n_informative=1, noise=10, random_state=11)
 ```
 
+Отобразим данные на графике.
+
 ![](/images/1.png "")
 
 Возьмем модель `LinearRegression` из `sklearn` из модуля `linear_model`.
+
 ```
 from sklearn.linear_model import LinearRegression
 
 model = LinearRegression()
+```
+
+И передадим в неё в метод `fit` данные, которые получили выше.
+
+```
+model.fit(X, y)
 ```
 
 ![](/images/2.png "")
