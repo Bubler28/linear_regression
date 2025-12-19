@@ -14,10 +14,17 @@ Cгенирируем данные и обучим на них линейную 
 ```
 from sklearn.linear_model import LinearRegression
 
-
 X, y = make_regression(n_samples=50, n_features=1, n_informative=1, noise=10, random_state=11)
 ```
 
 ![](/images/1.png "")
+
+Возьмем модель `LinearRegression` из `sklearn` из модуля `linear_model`.
+```
+from sklearn.linear_model import LinearRegression
+
+model = LinearRegression()
+model
+```
 
 ![](/images/2.png "")
