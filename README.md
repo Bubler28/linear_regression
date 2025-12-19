@@ -24,7 +24,6 @@ X, y = make_regression(n_samples=50, n_features=1, n_informative=1, noise=10, ra
 from sklearn.linear_model import LinearRegression
 
 model = LinearRegression()
-model
 ```
 
 ![](/images/2.png "")
