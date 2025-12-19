@@ -12,7 +12,7 @@ $$ y = x_{1}w_{1} + x_{2}w_{2} + ... + x_{n}w_{n} + w_{0}, где:$$
 Cгенирируем данные и обучим на них линейную модель.
 
 ``
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression    
 X, y = make_regression(n_samples=50, n_features=1, n_informative=1, noise=10, random_state=11)
 ``
 
